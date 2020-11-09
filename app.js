@@ -21,7 +21,7 @@ const possibleOutcomes=[0, 1, 2, 3, 4, 5, 6, "W"];
 function updateScore() {
     $team1Score.textContent = team1Score;
     $team1Wickets.textContent = team1Wickets;
-    $team2Score.textContent = team2Wickets;
+    $team2Score.textContent = team2Score;
     $team2Wickets.textContent = team2Wickets;
 }
 
