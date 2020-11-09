@@ -54,7 +54,7 @@ strikeButton.onclick = () => {
             team2Wickets++;
         }
         else{
-            team2Score+=randomElement;
+            team2Score += randomElement;
         }
         if(team2BallsFaced===6 || team2Wickets===2 || team2Score>team1Score){
             turn=3;
